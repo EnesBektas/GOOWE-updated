@@ -20,7 +20,7 @@ from scipy.io import arff
 # /home/sepehr/Downloads/SEPEHR/EBLS/SIGIR2020/EBLS/IEEEAccess_LED_00_07.csv
 f = open("data.txt", "a")
 
-for o in range(5,6):
+for o in range(0,10):
 
 
     accuracyArr = np.zeros(8)
@@ -85,7 +85,7 @@ for o in range(5,6):
         ps = np.zeros((8,31))
         pts = np.zeros((8,31))
 
-    for j in range(7, 8):
+    for j in range(1, 9):
         print("j = ", j)
 
         if o == 0:
